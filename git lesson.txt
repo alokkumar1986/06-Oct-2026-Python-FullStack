@@ -1,0 +1,75 @@
+git account
+#========================
+
+Install git : https://git-scm.com/install/ 
+#=========================================
+
+git --version
+
+Get the GitHub repository (x)
+#=========================================
+https://github.com/alokkumar1986/18-July-2026-Python-FullStack.git
+
+
+Clone this repo
+#=========================================
+git clone https://github.com/alokkumar1986/18-July-2026-Python-FullStack.git
+
+
+git add .
+git commit -m 'message'
+git push
+
+git pull (You)
+#==========================================
+
+
+python  :
+
+https://python.org
+
+Downloads -> Python Install Manager (download)
+
+Installation and Verification :
+
+py --version
+python --version
+py -V
+python -V
+
+vscode + AI(windsurf(devon))
+#=======================================================
+
+download and installation of vscode
+
+https://code.visualstudio.com
+
+
+
+
+colab + AI (Gemini):  
+
+#=======================================================
+https://colab.research.google.com/
+
+
+
+
+jupyter notebook
+
+#======================================================
+
+pip : package installer for python, It comes with python
+
+pip install jupyterlab  / py -m pip install jupyterlab
+pip install notebook  / py -m pip install notebook
+
+
+jupyter notebook / py -m jupyter notebook
+
+
+http://127.0.0.1/token?asduhjdisadjahsidisad
+
+
+
+
