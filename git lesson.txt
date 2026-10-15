@@ -36,6 +36,10 @@ python --version
 py -V
 python -V
 
+REPL :  Read Eval Print Loop
+
+
+
 vscode + AI(windsurf(devon)/GitHub Copilot)
 #=======================================================
 
