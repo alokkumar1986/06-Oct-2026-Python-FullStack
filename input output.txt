@@ -1,0 +1,46 @@
+input output : 
+
+input() : This method is used to take input to the program.
+print() : This method is used to get output from the program.
+
+input():  
+===================
+When we take input, it is by default str.
+in order to convert its type, we generally use type casting. 
+
+int() : to convert to integer
+float(): to convert to float
+complex() : to convert to complex
+str() : to convert to string
+bool() : to convert to boolean
+
+Note : whenever we take input, we must use type casting.
+
+type casting :
+
+1) implicit : auto convert
+2) explicit  : forcefully convert
+
+output : 
+#===============
+For getting output from a program we use print().
+
+print() always gives output in a new line. 
+
+In order to format the output in multiple line of single print(), we use escape sequence.
+
+escape sequence :
+=================
+
+\n : new line
+\t : horizontal tab
+\r : carriage return
+\/ : single slash
+\" : double quote
+\' : single quote 
+
+Type of print()
+#=================
+
+
+
