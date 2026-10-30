@@ -1,0 +1,28 @@
+Variable : 
+
+It is a name of a value stored in the memory. 
+
+e.g :
+
+a = 10
+
+defining variable has same rules as identifiers
+
+1) consists of a-z A-Z 0-9 _
+2) should not start with digit
+3) case sensitive
+4) should not be a keyword
+5) name should be meaningful and precise
+
+In Python the type of variable is decided when we assign a value. 
+a 
+a = 10
+print(type(a)
+a = 3+2j
+print(type(a))
+
+So python is called as dynamic typed.
+
+static type : c, c++, java 
+
+int a;

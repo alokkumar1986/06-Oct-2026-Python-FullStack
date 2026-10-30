@@ -41,6 +41,50 @@ escape sequence :
 
 Type of print()
 #=================
+1) print() with string :
 
+print('Aptech')  #Aptech
 
+2) print() with a variable :
 
+a = 10
+print(a) #10
+
+3) print() with multiple string:
+
+print('Aptech', 'Learning', 'Center')  #Aptech Learning Center
+
+4) print() with multiple variable :
+
+a = 10
+b = 'Ashok'
+c = 3+2j
+print(a, b, c) # 10 Ashok 3+2j
+
+ 
+5) print() with string and variable
+
+a = 10
+b = 20
+print('Value of a :', a, 'Value of b :', b)
+
+6) print() with {} 
+a = 10
+b = 20
+print('Value of a : {} Value of b : {}'.format(a, b))
+
+7) print() with sep=
+a = 10
+b = 20
+print(a,b, sep=',') #10 , 20
+
+8) print() with end=
+
+print('Aptech')
+print('Learning')
+print('Center')
+
+9) print() with both sep= and end=
+
+print('Aptech', 'Learning', sep='/', end=' ')
+print('Center')
