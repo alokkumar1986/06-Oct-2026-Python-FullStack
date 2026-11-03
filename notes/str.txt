@@ -1,0 +1,89 @@
+str datatype :
+#======================
+Any value that is assigned to a variable and value is written with a single quote ('') or double quote ("")
+
+example 1 :
+
+var = '30'
+print(type(var)) #<class 'str'>
+
+example 2 : 
+
+var1 = "Aptech"
+print(type(var1)) #<class 'str'>
+
+example 3 :
+
+""" : for comment
+""" : for defining a multiline string and assign to variable.
+
+var2 = '''We are learning python in Aptech. 
+Aptech is at Nayapalli, Bhubaneswar'''
+print(type(var2))
+
+Note : when defining a str
+
+start with double quote, then use single quote or escape character in between.
+
+start with single quote, the use double quote or escape character in between.
+
+indexing : 
+#=============================
+var = "Aptech Learning Center"
+
+In python string are stored in a consecutive index.
+Index is always starts with 0 from left and -1 from right.
+
+print(var[0]) #A
+
+print(var[-22]) #A
+
+print(var[4]) #c
+print(var[-18]) #c
+
+slicing:
+#=======================
+slicing means a part of string.
+
+slicing is denoted as var[s:s:s]
+
+s : start index : by default 0 index
+s : stop index : excluded : by default last index
+s : step  : by default 1
+
+var = "Aptech Learning Center"
+
+print(var[0:3]) #Apt
+
+print(var[:5]) #Aptec
+
+print(var[:]) #Aptech Learning Center
+
+print(var[::2]) #Atc erigCne
+
+operation in string :
+
++ *
+
+str + str  = join
+
+'Aptech' + 'Center' = 'AptechCenter'
+
+str * 3 = strstrstr
+
+'Aptech' * 3 = 'AptechAptechAptech'
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
