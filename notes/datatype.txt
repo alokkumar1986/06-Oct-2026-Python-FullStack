@@ -4,8 +4,8 @@ datatype : The type value that a variable holds, is called datatype.
  2) String : str
  3) Boolean : bool
  4) None : None
- 5) Collection Type : list, tuple, set, frozen set, dict
- 6) bytes : 
+ 5) Collection Type : list, tuple, set, frozen set, dict, range()
+ 6) bytes : bytes, bytes array
 
 
 type() : To get the datatype of a variable
