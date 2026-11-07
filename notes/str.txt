@@ -73,7 +73,15 @@ str * 3 = strstrstr
 
 'Aptech' * 3 = 'AptechAptechAptech'
 
+methods : 
+=============
 
+lower()
+upper()
+capitalize()
+len()
+strip()
+split(' ')
 
 
 
