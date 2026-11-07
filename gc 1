@@ -1,0 +1,103 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNokC18Evq/YIqKKMBypNy9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/alokkumar1986/06-Oct-2026-Python-FullStack/blob/main/gc%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2_GAw92W8xp4",
+        "outputId": "aa772dd3-1644-4344-ce5a-5fb8a09b7c31"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Aptech Learning Center\n"
+          ]
+        }
+      ],
+      "source": [
+        "s = 'Aptech learning center'\n",
+        "print(s.title())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = 'Aptech learning center'\n",
+        "print(s[::-1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-uGUWVq-APBT",
+        "outputId": "1e4004b4-42c2-4646-e65f-d720a05b285f"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "retnec gninrael hcetpA\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s = 'Aptech learning center'\n",
+        "print(s[7:15:2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TKa_d1ffBcZC",
+        "outputId": "6cc69933-df42-48ff-d1b5-7a733a493ad3"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lann\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
