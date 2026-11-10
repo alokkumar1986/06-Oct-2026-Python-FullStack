@@ -1,0 +1,97 @@
+list : 
+
+It is a collection type where we can store multiple type of values in a single variable.
+
+List always used to defined with [] and values are comma separated.
+
+
+e.g :
+
+a = [1, 2, 3, 4]
+b = ['A', 'b', 'C', 54]
+
+print(type(a)) #<class 'list'>
+print(type(b)) #<class 'list'>
+
+How to define a list :
+#===========================
+1) using []
+
+l = ["Aptech", "Learning", "Center"]
+fruits = ["apple", "banana", "oragnge", "pine-apple"]
+
+2) using list()
+
+l = list(("Aptech", "Learning", "Center"))
+fruits = list(["apple", "banana", "oragnge", "pine-apple"])
+
+Indexing :
+
+Here indexing means getting values as per index. The values are stored from left starting with 0 index and from right starting with -1 index. 
+
+l = list(("Aptech", "Learning", "Center"))
+
+l[0] #"Aptech"
+l[1] #"Learning"
+l[2] #"Center"
+l[3] #IndexError : list index out of range
+
+l[-1] #"Center"
+l[-2] #"Learning"
+l[-3] #"Aptech"
+l[-4] #IndexError : list index out of range
+
+slicing : 
+
+l = list(("Aptech", "Learning", "Center"))
+l[::] #["Aptech", "Learning", "Center"]
+l[:2] #["Aptech", "Learning"]
+l[1:] #["Learning", "Center"]
+l[1:2] #["Learning"]
+l[0:100] #["Aptech", "Learning", "Center"]
+
+l[::-1] #["Center", "Learning", "Aptech"]
+
+l[10:1] #[]
+
+methods used in list :
+
+1) len() : To find the number of values
+2) append() : To add a value to the list. Values always adds to the end of the list
+3) remove() : To remove a value.
+4) pop() : To remove a value and returns it
+5) del : To delete a value or whole list
+6) clear() : To empty the list
+
+
+NB : list is always ordered, mutable and allow duplicate.
+
+
+ordered : list items can be accessed using index. And the index always starts with 0 from left and -1 from right.
+
+mutable : We can modify the list.
+e.g:
+l = list(("Aptech", "Learning", "Center"))
+
+l[0] = 20
+
+print(l)
+
+
+duplicated : 
+
+e.g:
+l = list(("Aptech", "Learning", "Center"))
+l.append('Aptech')
+print(l)
+
+
+
+
+
+
+
+
+
+
+
