@@ -1,0 +1,81 @@
+set :
+#==============
+
+list : ordered, mutable, allow duplicate []
+
+tuple : ordered, immutable, allow duplicate ()
+
+set : unordered, immutable, don't allow duplicate {}
+
+
+set is also collection type. we define set using following
+
+1) [] -- list()
+   () -- tuple()
+   {} -- set()
+
+s = {'apple', 'orange', 'banana'}
+print(type(s)) # <class 'set'>
+
+s = set(('apple', 'orange', 'banana'))
+print(type(s)) # <class 'set'>
+
+s = set(['apple', 'orange', 'banana'])
+print(type(s)) # <class 'set'>
+
+s = set('apple', 'orange', 'banana') #Error
+print(type(s)) # <class 'set'>
+
+empty set:
+#==========================
+
+l=[] #empty list
+t=() #empty tuple
+s={} #empty dict
+
+s= set() #empty set
+
+
+#set is unordered, immutable, don't allow duplicate :
+
+s = {1, 2, 1, 3, 2, 5}
+
+print(s) #{1, 2, 3, 5} don't allow duplicate
+
+
+print(s[0]) #set is unordered, hence accessing element using index is not allowed
+
+set does allow indexing and slicing.
+
+how to access the element : using for loop
+
+s = {1, 2, 1, 3, 2, 5}
+
+for I in s:
+ print(I)
+
+
+methods used in set :
+#=========================
+
+len()
+
+s = {1, 2, 1, 3, 2, 5}
+print(len(s))
+
+add()
+update()
+
+remove()
+discard()
+
+del
+clear()
+
+union()
+intersection()
+difference()
+symmetric_differenece()
+
+
+

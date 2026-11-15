@@ -1,0 +1,100 @@
+tuple : It is also a collection type similar to list.
+
+We can store multiple values in a single variable. We define tuple using ()
+
+e.g :
+
+t = (1, 2, 3, 4)
+
+print(type(t)) #<class 'tuple'>
+
+
+How to define :
+#==========================
+
+1) using ()
+2) using tuple()
+
+
+example 1 : 
+
+t = (1, 2, 3, 4)
+print(type(t)) #<class 'tuple'>
+
+example 2 :
+
+t = tuple([1, 2, 3, 4])
+print(type(t)) #<class 'tuple'>
+
+t = tuple((1, 2, 3, 4))
+print(type(t)) #<class 'tuple'>
+
+t = tuple(1, 2, 3, 4)  #error
+print(type(t)) 
+
+Indexing : 
+#==============================
+Like list, we can access the elements/values of the tuple using index.
+
+t = (1, 2, 3, 4, 5)
+
+t[0] #1
+t[1] #2
+t[2] #3
+t[3] #4
+t[4] #5
+t[5] #IndexError 
+
+t[-1] #5
+t[-2] #4
+t[-3] #3
+t[-4] #2
+t[-5] #1
+t[-6] #IndexError
+
+slicing :
+#=========================
+
+Like list, we can get part of tuple using slicing
+
+t = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+print(t[:]) 
+
+print(t[2:])
+
+print(t[:5])
+
+print(t[2:6])
+
+print(t[::-1])
+
+print(t[2:100])
+
+print(t[10:2]) #() empty tuple
+
+
+print(t[-10:-1]) #
+
+
+list : ordered, mutable, allow duplicate
+tuple : ordered, immutable, allow duplicate
+
+tuple is the readonly list
+
+
+methods in tuple :
+
+len()
+append() X
+remove() X
+pop()  X
+
+del
+clear() X
+
+
+
+
+
+

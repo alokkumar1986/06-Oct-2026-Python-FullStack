@@ -1,0 +1,25 @@
+range() :  It is method/function. It is used to generate sequence of numbers.
+
+sequence type : str, list, tuple and range()
+
+example : 
+
+print(range(10))
+
+3 types of form :
+
+1) range(10)  : range(0, 10)
+
+2) range(2, 10) : range(2, 10)
+
+3) range(2, 10, 2) : range(2, 10, 2)
+
+#=====================================================
+basic type :
+
+int float complex, bool
+
+collection type :
+
+list, tuple, range(), str, set, dict
+
