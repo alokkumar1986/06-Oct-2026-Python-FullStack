@@ -1,0 +1,91 @@
+dictionary : 
+
+It is also a collection type where data is stored in the form of key, value pairs. 
+It is defined using curly braces.
+
+e.g:
+
+car = {
+   "brand" : "Hyundai",
+   "model" : "Creta",
+   "year" : 2025
+}
+
+print(type(car)) #<class 'dict'>
+
+how to define :
+
+1) using {} and data in key:value pair
+2) using dict()
+
+example : 
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+print(student)
+
+example :
+
+student = dict({ "Akshaya", "9th", 2025 })
+
+print(student)
+
+
+N.B :
+
+1) values can be a list, tuple, set, dict in a dict
+
+student = {
+
+   "name" : "Akshaya",
+   "class" : "9th",
+   "subject" : ["MTA", "SLE", "Scp", "Scl", "Sankrit", "MTG", "FLO" ],
+   "optional_sub" : ("Sankrit", "Hindi"),
+   "marks" : {
+      "MTA": 90, 
+      "SLE": 70, 
+      "Scp" : 56, 
+      "Scl": 55, 
+      "Sankrit": 99, 
+      "MTG": 87, 
+      "FLO": 67 
+    }
+}
+print(type(student))
+print(student)
+
+2) in dict values can be duplicated but keys are not.
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "gender" : 'male',
+   "gender" : "female",
+}
+
+print(student)
+
+
+dict are ordered, changeable and do n't allow duplicate.
+
+
+we can access values of dict using its key.
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+print(student['name']
+
+There three methods to directly get keys or values
+
+keys() :  list of keys
+values() :list of values
+items() : list of tuples of key value pair
+
