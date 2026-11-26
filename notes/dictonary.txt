@@ -89,3 +89,113 @@ keys() :  list of keys
 values() :list of values
 items() : list of tuples of key value pair
 
+How to change dict :
+=================================
+
+1) 
+
+l = [1, 2, 3, 5, 7]
+l[3] = 6
+print(l) #[1, 2, 3, 6, 7]
+
+
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+student['year'] = 2026
+print(student)
+
+As we change the value of list in an index by assign a new value to list[index].
+
+Similarly we can change value in a key of a dict by assign a new value to dict['key'].
+
+2) 
+
+l = [1, 2, 3, 5, 7]
+l.append(8)
+print(l) #[1, 2, 3, 5, 7, 8]
+
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+student.update({ 'age': 25})
+print(student)
+
+#================================
+pop() : Delete a item using key
+popitem() : Delete the last  item from dict
+del :  Delete an item as well as whole dict
+clear() : To empty the dict
+
+
+loop in dict 
+#================
+
+keys() 
+values()
+items()
+
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+keys() = ["name", "class", "year"]
+values() = ["Akshaya", "9th", 2025]
+items() = [("name", "Akshaya"), ("class", "9th"), ("year", 2025)]
+
+for i in student.keys():
+   print(i)
+
+for i in student.value():
+   print(i)
+
+for (i,j) in student.items():
+   print(i)
+   print(j)
+
+#=============================================================
+
+In dict, we can copy a dict using following
+
+1) assignment
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+s = student
+print(s)
+
+2) 
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+s = student.copy()
+print(s)
+
+3) dict()
+
+student = {
+   "name" : "Akshaya",
+   "class" : "9th",
+   "year" : 2025
+}
+
+s = dict(student)
+
