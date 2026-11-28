@@ -1,0 +1,16 @@
+1) Arithmetic (+ - * / // % **)
+2) Assignment (=, +=, -=, /=, //=, %=)
+3) Comparison (==, !=, >, <, >=, <=)
+4) Logical (and, or, not)
+5) Membership (in, not in)
+6) Ternary (val1 if cond1 else cond2)
+7) Bitwise  (&,|, ^, ~,  >>, <<)
+
+
+& : bitwise and
+| : bitwise or
+~ : bitwise not
+^ : bitwise xor
+
+>> : bitwise left shift   
+<< : bitwise right shift
